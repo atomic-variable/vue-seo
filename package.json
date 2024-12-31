@@ -13,7 +13,7 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "gh-pages-deploy": "gh-pages-deploy.js"
+    "gh-pages-deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
     "vue": "^3.5.13",
