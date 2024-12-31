@@ -62,3 +62,11 @@ pnpm test:e2e --debug
 ```sh
 pnpm lint
 ```
+
+### github pages
+
+```
+pnpm run build
+git add dist -f & git commit -m "adding dist"
+git subtree push --prefix dist origin gh-pages
+```
