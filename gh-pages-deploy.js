@@ -1,4 +1,4 @@
-import execa from 'execa'
+import { execa } from 'execa'
 ;(async () => {
   try {
     await execa('git', ['checkout', '--orphan', 'gh-pages'])
